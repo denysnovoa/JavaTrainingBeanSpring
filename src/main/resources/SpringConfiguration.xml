@@ -6,4 +6,21 @@
     <bean id="helloBean" class="core.HelloWorld">
         <property name="name" value="Denys"/>
     </bean>
+
+    <bean id="dataSource"
+          class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+        <property name="url" value="jdbc:mysql://localhost:3306/test"/>
+        <property name="username" value="root"/>
+        <property name="password" value=""/>
+    </bean>
+
+    <bean id="StudentJDBCTemplate"
+          class="jdbc.template.StudentJdbcTemplate">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+    <bean id="StudentMapperInject" class="jdbc.StudentMapperInject">
+        <constructor-arg ref="StudentJDBCTemplate"/>
+    </bean>
 </beans>

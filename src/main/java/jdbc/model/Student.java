@@ -33,4 +33,8 @@ public class Student {
     this.id = id;
     this.name = name;
   }
+
+  public void print() {
+    System.out.println("Id : " + id + "Name " + name + " Age: " + age);
+  }
 }
