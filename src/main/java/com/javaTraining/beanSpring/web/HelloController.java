@@ -1,4 +1,4 @@
-package com.javaTrainingBeanSpring.web;
+package com.javaTraining.beanSpring.web;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

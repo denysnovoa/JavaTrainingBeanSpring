@@ -1,4 +1,4 @@
-package core;
+package com.javaTraining.beanSpring.core;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

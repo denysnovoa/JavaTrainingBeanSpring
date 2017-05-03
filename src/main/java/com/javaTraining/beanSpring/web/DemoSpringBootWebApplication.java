@@ -1,4 +1,4 @@
-package com.javaTrainingBeanSpring.web;
+package com.javaTraining.beanSpring.web;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

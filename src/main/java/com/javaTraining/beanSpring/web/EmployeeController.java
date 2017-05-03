@@ -1,8 +1,8 @@
-package com.javaTrainingBeanSpring.web;
+package com.javaTraining.beanSpring.web;
 
+import com.javaTraining.beanSpring.jdbc.dao.StudentDao;
 import java.util.List;
-import com.javaTrainingBeanSpring.jdbc.dao.StudentDao;
-import com.javaTrainingBeanSpring.jdbc.model.Student;
+import com.javaTraining.beanSpring.jdbc.model.Student;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;

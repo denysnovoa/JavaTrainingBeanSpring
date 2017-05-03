@@ -1,4 +1,4 @@
-package core;
+package com.javaTraining.beanSpring.core;
 
 public class HelloWorld {
   private String name;

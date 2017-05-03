@@ -1,7 +1,7 @@
 import java.util.List;
-import com.javaTrainingBeanSpring.jdbc.StudentMapperInject;
-import com.javaTrainingBeanSpring.jdbc.model.Student;
-import com.javaTrainingBeanSpring.jdbc.template.StudentJdbcTemplate;
+import com.javaTraining.beanSpring.jdbc.StudentMapperInject;
+import com.javaTraining.beanSpring.jdbc.model.Student;
+import com.javaTraining.beanSpring.jdbc.template.StudentJdbcTemplate;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

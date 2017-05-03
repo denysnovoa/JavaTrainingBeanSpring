@@ -1,4 +1,4 @@
-package com.javaTrainingBeanSpring.api;
+package com.javaTraining.beanSpring.api;
 
 import java.util.Arrays;
 import java.util.List;

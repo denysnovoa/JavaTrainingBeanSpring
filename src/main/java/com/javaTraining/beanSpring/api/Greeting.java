@@ -1,4 +1,4 @@
-package com.javaTrainingBeanSpring.api;
+package com.javaTraining.beanSpring.api;
 
 public class Greeting {
 
