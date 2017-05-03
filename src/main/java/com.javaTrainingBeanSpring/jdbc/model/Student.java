@@ -1,4 +1,4 @@
-package jdbc.model;
+package com.javaTrainingBeanSpring.jdbc.model;
 
 public class Student {
   private Integer age, id;

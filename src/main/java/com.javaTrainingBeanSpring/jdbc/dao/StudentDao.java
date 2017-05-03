@@ -1,8 +1,8 @@
-package jdbc.dao;
+package com.javaTrainingBeanSpring.jdbc.dao;
 
 import java.util.List;
 import javax.sql.DataSource;
-import jdbc.model.Student;
+import com.javaTrainingBeanSpring.jdbc.model.Student;
 
 public interface StudentDao {
   void setDataSource(DataSource dataSource);

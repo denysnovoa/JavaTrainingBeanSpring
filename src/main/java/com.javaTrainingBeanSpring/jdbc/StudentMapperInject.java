@@ -1,8 +1,8 @@
-package jdbc;
+package com.javaTrainingBeanSpring.jdbc;
 
 import java.util.List;
-import jdbc.dao.StudentDao;
-import jdbc.model.Student;
+import com.javaTrainingBeanSpring.jdbc.dao.StudentDao;
+import com.javaTrainingBeanSpring.jdbc.model.Student;
 
 public class StudentMapperInject {
 

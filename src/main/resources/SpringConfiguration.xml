@@ -3,26 +3,26 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="helloBean" class="core.HelloWorld">
+    <bean id="helloBean" class="com.javaTrainingBeanSpring.core.HelloWorld">
         <property name="name" value="Denys"/>
     </bean>
 
     <bean id="dataSource"
           class="org.springframework.jdbc.datasource.DriverManagerDataSource">
-        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
-        <property name="url" value="jdbc:mysql://localhost:3306/test"/>
+        <property name="driverClassName" value="com.mysql.com.javaTrainingBeanSpring.jdbc.Driver"/>
+        <property name="url" value="com.javaTrainingBeanSpring.jdbc:mysql://localhost:3306/test"/>
         <property name="username" value="root"/>
         <property name="password" value=""/>
     </bean>
 
     <bean id="StudentJDBCTemplate"
-          class="jdbc.template.StudentJdbcTemplate">
+          class="com.javaTrainingBeanSpring.jdbc.template.StudentJdbcTemplate">
         <property name="dataSource" ref="dataSource"/>
     </bean>
 
-    <bean id="StudentDao" class="jdbc.template.StudentJdbcTemplate"></bean>
+    <bean id="StudentDao" class="com.javaTrainingBeanSpring.jdbc.template.StudentJdbcTemplate"></bean>
 
-    <bean id="StudentMapperInject" class="jdbc.StudentMapperInject">
+    <bean id="StudentMapperInject" class="com.javaTrainingBeanSpring.jdbc.StudentMapperInject">
         <constructor-arg ref="StudentJDBCTemplate"/>
     </bean>
 

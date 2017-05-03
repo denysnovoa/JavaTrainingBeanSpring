@@ -1,10 +1,10 @@
-package jdbc.template;
+package com.javaTrainingBeanSpring.jdbc.template;
 
 import java.util.List;
 import javax.sql.DataSource;
-import jdbc.StudentMapper;
-import jdbc.dao.StudentDao;
-import jdbc.model.Student;
+import com.javaTrainingBeanSpring.jdbc.StudentMapper;
+import com.javaTrainingBeanSpring.jdbc.dao.StudentDao;
+import com.javaTrainingBeanSpring.jdbc.model.Student;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Service;
 

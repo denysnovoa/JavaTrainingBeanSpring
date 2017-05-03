@@ -1,4 +1,4 @@
-package web;
+package com.javaTrainingBeanSpring.web;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -9,7 +9,7 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 @SpringBootApplication
 @EnableWebMvc
-@ComponentScan(basePackages = {"JavaTrainingBeanSpring"})
+@ComponentScan(basePackages = {"com.javaTrainingBeanSpring"})
 public class DemoSpringBootWebApplication {
 
   public static void main(String[] args) {

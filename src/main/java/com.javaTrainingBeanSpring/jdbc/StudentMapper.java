@@ -1,8 +1,8 @@
-package jdbc;
+package com.javaTrainingBeanSpring.jdbc;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import jdbc.model.Student;
+import com.javaTrainingBeanSpring.jdbc.model.Student;
 import org.springframework.jdbc.core.RowMapper;
 
 public class StudentMapper implements RowMapper<Student> {
