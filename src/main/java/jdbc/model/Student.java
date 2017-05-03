@@ -37,4 +37,8 @@ public class Student {
   public void print() {
     System.out.println("Id : " + id + "Name " + name + " Age: " + age);
   }
+
+  public String toString() {
+    return "Id : " + id + "Name " + name + " Age: " + age;
+  }
 }

@@ -6,7 +6,9 @@ import jdbc.StudentMapper;
 import jdbc.dao.StudentDao;
 import jdbc.model.Student;
 import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.stereotype.Service;
 
+@Service
 public class StudentJdbcTemplate implements StudentDao {
 
   private JdbcTemplate jdbcTemplate;

@@ -20,7 +20,10 @@
         <property name="dataSource" ref="dataSource"/>
     </bean>
 
+    <bean id="StudentDao" class="jdbc.template.StudentJdbcTemplate"></bean>
+
     <bean id="StudentMapperInject" class="jdbc.StudentMapperInject">
         <constructor-arg ref="StudentJDBCTemplate"/>
     </bean>
+
 </beans>
