@@ -9,7 +9,7 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 @SpringBootApplication
 @EnableWebMvc
-@ComponentScan(basePackages = {"com.javaTrainingBeanSpring"})
+@ComponentScan(basePackages = {"com.javaTraining.beanSpring"})
 public class DemoSpringBootWebApplication {
 
   public static void main(String[] args) {
