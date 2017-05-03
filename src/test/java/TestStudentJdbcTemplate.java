@@ -16,7 +16,6 @@ public class TestStudentJdbcTemplate {
     studentJdbcTemplate.add("juana", 32);
     studentJdbcTemplate.add("pablo", 34);
 
-
     StudentMapperInject studentMapperInject = (StudentMapperInject) context.getBean("StudentMapperInject");
 
     List<Student> students = studentMapperInject.list();
